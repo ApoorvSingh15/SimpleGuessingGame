@@ -1,4 +1,4 @@
-var secNum = 6;
+const secNum = 6;
 var guessNum = Number(prompt("Enter a guess number between 1-10"));
 if (guessNum < secNum) {
 	alert("Number is too low");
